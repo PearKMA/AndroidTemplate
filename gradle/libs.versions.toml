@@ -1,0 +1,128 @@
+[versions]
+com-android-application = "7.4.2"
+org-jetbrains-kotlin-android = "1.8.0"
+benmanesversion = "0.45.0"
+safeargs = "2.5.3"
+google_services_gradle = "4.3.15"
+crashlytics_gradle = "2.9.4"
+
+compile_sdk_version = "33"
+min_sdk_version = "23"
+target_sdk_version = "33"
+
+desugar = "2.0.3"
+core-ktx = "1.9.0"
+appcompat = "1.6.1"
+material = "1.8.0"
+constraintlayout = "2.1.4"
+swipe_refresh_layout = "1.1.0"
+legacy = "1.0.0"
+sdp-ssp = "1.1.0"
+fragment_ktx = "1.5.6"
+lifecycle = "2.6.1"
+navigation = "2.5.3"
+recyclerview = "1.3.0"
+exoplayer = "2.18.5"
+room = "2.5.1"
+viewpager2 = "1.0.0"
+coroutines = "1.6.4"
+glide = "4.14.2"
+glide_webp = "2.3.4.14.2"
+retrofit = "2.9.0"
+datastore = "1.0.0"
+timber = "5.0.1"
+firebase = "31.4.0"
+worker = "2.8.1"
+hilt = "2.45"
+hilt_navigation = "1.0.0"
+hilt_worker = "1.0.0"
+lottie = "5.2.0"
+camerax = "1.2.2"
+guava = "31.1-android"
+cameraview = "2.7.2"
+flexbox = "3.0.0"
+leakcanary = "2.9.1"
+javapoet = "1.13.0"
+
+
+junit = "4.13.2"
+androidx-test-ext-junit = "1.1.5"
+espresso-core = "3.5.1"
+core_test = "2.1.0"
+truth = "1.1.3"
+robolectric = "4.7.3"
+androidx_test = "1.4.0"
+runner = "1.6.4"
+coroutines_test = "1.6.4"
+
+[libraries]
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+desugar = { group = "com.android.tools", name = "desugar_jdk_libs", version.ref = "desugar" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+swipe_refresh_layout = { group = "androidx.swiperefreshlayout",name = "swiperefreshlayout", version.ref = "swipe_refresh_layout" }
+legacy = { group = "androidx.legacy",name= "legacy-support-v4", version.ref = "legacy" }
+sdp = { group = "com.intuit.sdp",name= "sdp-android", version.ref = "sdp-ssp" }
+ssp = { group = "com.intuit.ssp",name = "ssp-android", version.ref = "sdp-ssp" }
+fragment_ktx = { group = "androidx.fragment",name = "fragment-ktx", version.ref = "fragment_ktx" }
+viewmodel = { group = "androidx.lifecycle",name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
+lifecycle_runtime = { group = "androidx.lifecycle",name = "lifecycle-runtime-ktx", version.ref = "lifecycle" }
+navigation_fragment = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigation" }
+navigation_ui = { group = "androidx.navigation",name = "navigation-ui-ktx", version.ref = "navigation" }
+recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
+exo_core = { group = "com.google.android.exoplayer", name = "exoplayer-core", version.ref = "exoplayer" }
+exo_ui = { group = "com.google.android.exoplayer", name = "exoplayer-ui", version.ref = "exoplayer" }
+room_runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+room_ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+room_compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+viewpager2 = { group = "androidx.viewpager2",name = "viewpager2", version.ref = "viewpager2" }
+coroutines = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
+coroutines_core = { group = "org.jetbrains.kotlinx",name = "kotlinx-coroutines-core", version.ref = "coroutines" }
+glide = { group = "com.github.bumptech.glide",name = "glide", version.ref = "glide" }
+glide_webp = { group = "com.github.zjupure",name = "webpdecoder", version.ref = "glide.webp" }
+glide_compiler = { group = "com.github.bumptech.glide", name = "compiler", version.ref = "glide" }
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+gson = { group = "com.squareup.retrofit2",name = "converter-gson", version.ref = "retrofit" }
+datastore = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "datastore" }
+timber = { group = "com.jakewharton.timber", name = "timber", version.ref = "timber" }
+firebase_bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebase" }
+crashlytics = { group = "com.google.firebase", name = "firebase-crashlytics-ktx" }
+analytics = { group = "com.google.firebase", name = "firebase-analytics-ktx" }
+configs = { group = "com.google.firebase", name = "firebase-config-ktx" }
+worker = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "worker" }
+hilt = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
+hilt_compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt" }
+hilt_worker = { group = "androidx.hilt", name = "hilt-work", version.ref = "hilt_worker" }
+hilt_worker_complier = { group = "androidx.hilt", name = "hilt-compiler", version.ref = "hilt_worker" }
+lottie = { group = "com.airbnb.android", name = "lottie", version.ref = "lottie" }
+camera2 = { group = "androidx.camera", name = "camera-camera2", version.ref = "camerax" }
+camera_lifecycle = { group = "androidx.camera", name = "camera-lifecycle", version.ref = "camerax" }
+camerax_view = { group = "androidx.camera", name = "camera-view", version.ref = "camerax" }
+guava = { group = "com.google.guava", name = "guava", version.ref = "guava" }
+cameraview = { group = "com.otaliastudios", name = "cameraview", version.ref = "cameraview" }
+flexbox = { group = "com.google.android.flexbox", name = "flexbox", version.ref = "flexbox" }
+leakcanary = { group = "com.squareup.leakcanary", name = "leakcanary-android", version.ref = "leakcanary" }
+
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }
+androidx_test_ext_junit_ktx = { group = "androidx.test.ext", name = "junit-ktx", version.ref = "androidx-test-ext-junit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
+truth = { group = "com.google.truth", name = "truth", version.ref = "truth" }
+robolectric = { group = "org.robolectric", name = "robolectric", version.ref = "robolectric" }
+hilt_test = { group = "com.google.dagger", name = "hilt-android-testing", version.ref = "hilt" }
+core_test = { group = "androidx.arch.core", name = "core-testing", version.ref = "core_test" }
+runner = { group = "androidx.test", name = "runner", version.ref = "runner" }
+coroutines_test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "runner" }
+
+[plugins]
+com-android-application = { id = "com.android.application", version.ref = "com-android-application" }
+org-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "org-jetbrains-kotlin-android" }
+com-benmanes-versions = { id = "com.github.ben-manes.versions", version.ref = "benmanesversion" }
+androidx-navigation-safeargs = { id = "androidx.navigation.safeargs.kotlin", version.ref = "safeargs" }
+com-dagger-hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+com-google-services = { id = "com.google.gms.google-services", version.ref = "google_services_gradle" }
+com-firebase-crashlytics = { id = "com.google.firebase.crashlytics", version.ref = "crashlytics_gradle" }
+
+[bundles]
+
