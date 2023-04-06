@@ -14,5 +14,8 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Android-Template"
-include(":app", ":base")
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
+include(
+    "app",
+    "base")
  

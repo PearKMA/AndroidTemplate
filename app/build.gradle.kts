@@ -43,8 +43,6 @@ android {
     }
     kotlinOptions {
         jvmTarget = JavaVersion.VERSION_1_8.toString()
-        freeCompilerArgs =
-            freeCompilerArgs + "-opt-in=kotlinx.coroutines.ExperimentalCoroutinesApi"
     }
 
     buildFeatures {
@@ -57,7 +55,7 @@ android {
 }
 
 dependencies {
-    implementation(project(":base"))
+    implementation(projects.base)
 
     coreLibraryDesugaring(libs.desugar)
     kapt(libs.hilt.compiler)
