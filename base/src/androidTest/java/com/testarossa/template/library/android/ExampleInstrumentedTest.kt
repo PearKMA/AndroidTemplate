@@ -1,4 +1,4 @@
-package com.testarossa.template.library.android
+package com.testarossa.template.library
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.testarossa.template.library.android.test", appContext.packageName)
+        assertEquals("com.testarossa.template.library.test", appContext.packageName)
     }
 }

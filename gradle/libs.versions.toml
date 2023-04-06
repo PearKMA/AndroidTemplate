@@ -117,7 +117,7 @@ coroutines_test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-
 
 [plugins]
 com-android-application = { id = "com.android.application", version.ref = "com-android-application" }
-org-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "org-jetbrains-kotlin-android" }
+org-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version = "1.8.20" }
 com-benmanes-versions = { id = "com.github.ben-manes.versions", version.ref = "benmanesversion" }
 androidx-navigation-safeargs = { id = "androidx.navigation.safeargs.kotlin", version.ref = "safeargs" }
 com-dagger-hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }

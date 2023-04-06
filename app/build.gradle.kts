@@ -5,19 +5,19 @@ plugins {
     alias(libs.plugins.org.jetbrains.kotlin.android)
     alias(libs.plugins.androidx.navigation.safeargs)
     alias(libs.plugins.com.dagger.hilt)
-    alias(libs.plugins.com.google.services)
-    alias(libs.plugins.com.firebase.crashlytics)
+//    alias(libs.plugins.com.google.services)
+//    alias(libs.plugins.com.firebase.crashlytics)
     kotlin("kapt")
 }
 
 //val key: String = gradleLocalProperties(rootDir).getProperty("")
 
 android {
-    namespace = "com.testarossa.android_template"
+    namespace = "com.testarossa.template"
     compileSdk = libs.versions.compile.sdk.version.get().toInt()
 
     defaultConfig {
-        applicationId = "com.testarossa.android_template"
+        applicationId = "com.testarossa.template"
         minSdk = libs.versions.min.sdk.version.get().toInt()
         targetSdk = libs.versions.target.sdk.version.get().toInt()
         versionCode = 1

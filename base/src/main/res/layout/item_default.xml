@@ -6,11 +6,11 @@
 
         <variable
             name="item"
-            type="com.testarossa.template.library.android.data.model.BaseModel" />
+            type="com.testarossa.template.library.data.model.BaseModel" />
 
         <variable
             name="listener"
-            type="com.testarossa.template.library.android.adapter.BaseAdapter" />
+            type="com.testarossa.template.library.adapter.BaseAdapter" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

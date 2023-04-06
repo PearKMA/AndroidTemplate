@@ -4,7 +4,7 @@ plugins {
     kotlin("kapt")
 }
 android {
-    namespace = "com.testarossa.template.library.android"
+    namespace = "com.testarossa.template.library"
     compileSdk = libs.versions.compile.sdk.version.get().toInt()
 
     defaultConfig {

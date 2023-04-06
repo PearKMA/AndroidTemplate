@@ -1,4 +1,4 @@
-package com.testarossa.template.library.android
+package com.testarossa.template.library
 
 /*
 import org.junit.Test
