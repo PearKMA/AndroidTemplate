@@ -8,6 +8,7 @@ plugins {
     alias(libs.plugins.com.dagger.hilt) apply (false)
 //    alias(libs.plugins.com.google.services) apply false
 //    alias(libs.plugins.com.firebase.crashlytics) apply false
+    cleanup
     base
 }
 
